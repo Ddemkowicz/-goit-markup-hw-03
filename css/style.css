@@ -1,0 +1,126 @@
+body {
+  background-color: #ffffff;
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+}
+
+.buttons button {
+  background-color: #f5f4fa;
+  color: #212121;
+  cursor: pointer;
+}
+.buttons button:hover,
+.buttons button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: #2196f3;
+}
+.logo .c-h-studio {
+  color: #000000;
+}
+.logo .c-f-studio {
+  color: #ffffff;
+}
+.address {
+  text-decoration: none;
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.footer {
+  background-color: #2f303a;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer [href^="mailto"],
+.footer [href^="tel"] {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer li {
+  font-style: normal;
+}
+.address:hover,
+.address:focus {
+  color: #2196f3;
+}
+
+.navigation > ul > li > a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #212121;
+}
+
+.navigation > ul > li > a:hover {
+  color: #2196f3;
+}
+.section-1 {
+  background-color: #2f303a;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+.section-1 > button {
+  background-color: #2196f3;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+}
+.list-1 > li > h4 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.list-1 > li > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+}
+.section-2 > h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.section-3 > h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+.section-3 h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.section-3 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  color: #757575;
+}
+.list-portfolio h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.list-portfolio p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
+}
