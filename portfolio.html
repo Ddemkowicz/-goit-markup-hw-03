@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,23 +16,19 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <link
-      rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
-    />
   </head>
   <body>
-    <header>
+    <header class="style-head">
       <a class="logo" href="#">Web<span class="c-h-studio">Studio</span></a>
-      <nav class="navigation">
-        <ul>
+      <nav>
+        <ul class="list-style navigation">
           <li><a href="./index.html">Agencja</a></li>
           <li><a href="./portfolio.html">Portfolio</a></li>
           <li><a href="#">Kontakt</a></li>
         </ul>
       </nav>
 
-      <ul>
+      <ul class="list-style">
         <li>
           <a class="address" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
@@ -38,15 +38,15 @@
       </ul>
     </header>
     <main>
-      <div class="buttons">
-        <button type="button">Wszystkie</button>
-        <button type="button">Strony</button>
-        <button type="button">Aplikacje</button>
-        <button type="button">Dizajn</button>
-        <button type="button">Marketing</button>
+      <div class="buttons container">
+        <button type="button"><strong>Wszystkie</strong></button>
+        <button type="button"><strong>Strony</strong></button>
+        <button type="button"><strong>Aplikacje</strong></button>
+        <button type="button"><strong>Dizajn</strong></button>
+        <button type="button"><strong>Marketing</strong></button>
       </div>
       <div>
-        <ul class="list-portfolio">
+        <ul class="list-portfolio container list-style">
           <li>
             <figure>
               <img
@@ -179,7 +179,7 @@
     <footer class="footer">
       <a class="logo" href="#">Web<span class="c-f-studio">Studio</span></a>
       <address>
-        <ul>
+        <ul class="list-style">
           <li><p>m. Warszawa, Aleje Jerozolimskie 21</p></li>
           <li>
             <a class="address" href="mailto:info@example.com"
